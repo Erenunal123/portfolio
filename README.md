@@ -1,53 +1,66 @@
 # 🚀 Eren Unal | Portfolio Website
 
-Merhaba! Bu proje benim kişisel portfolyo web sitemdir.  
-Kendimi, yeteneklerimi ve projelerimi modern ve responsive bir tasarım ile sunmak için geliştirdim.
+Merhaba! Bu proje benim kişisel portfolyo web sitemdir.
+Modern, responsive ve kullanıcı dostu bir arayüz ile kendimi ve projelerimi sunmak için geliştirdim.
 
 ---
 
 ## 👨‍💻 Hakkımda
-Ben bir Junior Software Developer olarak HTML, CSS, JavaScript ve PHP teknolojileri ile web projeleri geliştiriyorum.  
-Amacım clean code ve kullanıcı deneyimi odaklı projeler üretmek.
+
+Junior Software Developer olarak web teknolojileri üzerine çalışıyorum.
+Clean code ve kullanıcı deneyimi odaklı projeler geliştirmeyi hedefliyorum.
 
 ---
 
 ## 🛠️ Kullanılan Teknolojiler
 
-- HTML5
-- CSS3
-- JavaScript (ES6+)
-- PHP
-- Bootstrap
+* HTML5
+* CSS3
+* JavaScript (ES6+)
+* Bootstrap
 
 ---
 
 ## ✨ Özellikler
 
-- 📱 Responsive (mobil uyumlu) tasarım
-- 🎨 Modern ve sade UI
-- ⚡ Hızlı yüklenen yapı
-- 🧭 Kullanıcı dostu navigasyon
-- 📬 Contact section
+* 📱 Responsive tasarım
+* 🎨 Modern UI
+* ⚡ Hızlı yükleme
+* 🧭 Kolay navigasyon
+* 📬 İletişim bölümü
 
 ---
 
-## 📸 Ekran Görüntüleri
+## 🌐 Canlı Demo
 
-Aşağıda proje görünümü:
+👉 https://erenunal123.github.io/portfolio
 
-https://i.ibb.co/Rk7qzxgN/Eren-Toprak-nal-Portfolyo-Website.jpg
+---
+
+## 📸 Ekran Görüntüsü
+
+![Portfolio Screenshot](docs/images/portfolio.png)
 
 ---
 
 ## 📁 Proje Yapısı
 
+```bash
+docs/
+│
+├── index.html
+├── about.html
+├── style.css
+├── script.js
+└── images/
+```
 
 ---
 
 ## 📬 İletişim
 
-- GitHub: https://github.com/Erenunal123
-- LinkedIn: (https://www.linkedin.com/in/eren-toprak-%C3%BCnal-586175398/)
+* GitHub: https://github.com/Erenunal123
+* LinkedIn: https://www.linkedin.com/in/eren-toprak-%C3%BCnal-586175398/
 
 ---
 
