@@ -39,7 +39,7 @@ Clean code ve kullanıcı deneyimi odaklı projeler geliştirmeyi hedefliyorum.
 
 ## 📸 Ekran Görüntüsü
 
-![Portfolio Screenshot](docs/images/portfolio.png)
+![Portfolio Screenshot](docs/image/erentoprakunal.jpg)
 
 ---
 
@@ -61,13 +61,5 @@ docs/
 
 * GitHub: https://github.com/Erenunal123
 * LinkedIn: https://www.linkedin.com/in/eren-toprak-%C3%BCnal-586175398/
-
----
-
-## ⚡ Not
-
-Bu proje sürekli geliştirilmektedir.
-
----
 
 👨‍💻 Created by **Eren Toprak Unal**
