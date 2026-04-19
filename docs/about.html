@@ -3,17 +3,17 @@
 
 <head>
     <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<script>
-    const savedTheme = localStorage.getItem("theme") || "dark";
-    document.documentElement.setAttribute("data-theme", savedTheme);
-</script>
+    <script>
+        const savedTheme = localStorage.getItem("theme") || "dark";
+        document.documentElement.setAttribute("data-theme", savedTheme);
+    </script>
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
     <title>Eren Toprak Ünal</title>
 </head>
 
@@ -24,36 +24,36 @@
 <body class="d-flex flex-column min-vh-100">
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
+        <div class="container">
 
-        <a class="navbar-brand" href="index.html">Eren Toprak Ünal</a>
+            <a class="navbar-brand" href="/portfolio/">Eren Toprak Ünal</a>
 
-        <div class="d-flex align-items-center">
-            <button id="themeToggle" class="btn btn-sm text-light border-0 me-2">🌙</button>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <div class="d-flex align-items-center">
+                <button id="themeToggle" class="btn btn-sm text-light border-0 me-2">🌙</button>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/portfolio/">Anasayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="/portfolio/about.html">Hakkımda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="/portfolio/skills.html">Yetenekler</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="/portfolio/contact.html">İletişim</a>
+                    </li>
+                </ul>
+            </div>
+
         </div>
-
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link " href="index.html">Anasayfa</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="about.html">Hakkımda</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link " href="skills.html">Yetenekler</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link " href="contact.html">İletişim</a>
-                </li>
-            </ul>
-        </div>
-
-    </div>
-</nav>
+    </nav>
 
     <div class="container hero-section py-5">
         <div class="row align-items-center text-center text-md-start">
@@ -82,17 +82,18 @@
     </div>
 
     <footer class="bg-dark text-light p-2 fixed-bottom text-center">
-    <div class="text-center">
-        (&copy;)
-        <a target="_blank" href="https://www.linkedin.com/in/eren-toprak-%C3%BCnal-586175398/" class="footer-link">
-            Eren Toprak Ünal
-        </a>
-        2025 - 2026 Tüm Hakları Saklıdır.
-    </div>
-</footer>
+        <div class="text-center">
+            (&copy;)
+            <a target="_blank" href="https://www.linkedin.com/in/eren-toprak-%C3%BCnal-586175398/" class="footer-link">
+                Eren Toprak Ünal
+            </a>
+            2025 - 2026 Tüm Hakları Saklıdır.
+        </div>
+    </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-<script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
 
 </body>
+
 </html>
