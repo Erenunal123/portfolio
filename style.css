@@ -1,0 +1,229 @@
+/* ================= THEME ================= */
+:root {
+    --bg-color: #ffffff;
+    --text-color: #000000;
+}
+
+[data-theme="dark"] {
+    --bg-color: #121212;
+    --text-color: #ffffff;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background 0.3s, color 0.3s;
+    padding-bottom: 60px;
+}
+
+footer {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+
+/* ================= FOOTER ================= */
+.footer-link {
+    color: #f8f9fa;
+    text-decoration: none;
+    transition: 0.3s;
+    padding: 2px 6px;
+    border-radius: 6px;
+}
+
+.footer-link:hover {
+    color: #fff;
+    background: linear-gradient(90deg, #0d6efd, #0a1f44);
+    box-shadow: 0 0 10px rgba(13, 110, 253, 0.6);
+}
+
+
+/* ================= HERO ================= */
+.hero-section {
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    padding: 60px 0;
+}
+
+
+/* ================= AVATAR ================= */
+.avatar-circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid #0d6efd;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    margin: auto;
+}
+
+.avatar-circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+[data-theme="dark"] .avatar-circle {
+    border-color: #4da3ff;
+}
+
+
+/* ================= THEME BUTTON ================= */
+#themeToggle {
+    transition: transform 0.3s, color 0.3s;
+}
+
+#themeToggle:hover {
+    transform: scale(1.1);
+    color: #0d6efd;
+}
+
+
+/* ================= SKILLS ICONS ================= */
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.skills-container img {
+    width: 55px;
+    height: 55px;
+    padding: 10px;
+    border-radius: 50%;
+    background: var(--card-bg, #f8f9fa);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+    object-fit: contain;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.skills-container img:hover {
+    transform: scale(1.25);
+    box-shadow: 0 10px 20px rgba(13, 110, 253, 0.4);
+}
+
+[data-theme="dark"] .skills-container img {
+    background: #1e1e1e;
+}
+
+
+/* ================= LOADER ================= */
+#loader {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    transition: opacity 0.5s ease;
+}
+
+.spinner {
+    width: 50px;
+    height: 50px;
+    border: 4px solid #333;
+    border-top: 4px solid #0d6efd;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+#loader.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+/* ================= SUBTITLE ================= */
+.subtitle {
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: #6c757d;
+}
+
+[data-theme="dark"] .subtitle {
+    color: #d1d1d1;
+}
+
+
+/* ================= TRIANGLE IMAGE ================= */
+.triangle-img {
+    width: 260px;
+    height: 260px;
+    perspective: 1000px;
+}
+
+.triangle-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+    transition: transform 0.2s ease;
+    transform-style: preserve-3d;
+}
+
+.triangle-img img:hover {
+    transform: scale(1.08);
+    filter: brightness(1.05);
+}
+
+.triangle-img:hover img {
+    box-shadow: 0 20px 40px rgba(13, 110, 253, 0.3);
+}
+
+
+/* ================= PENTAGON IMAGE ================= */
+.pentagon-img {
+    width: 260px;
+    height: 260px;
+    position: relative;
+    perspective: 1000px;
+    margin: auto;
+}
+
+.pentagon-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    clip-path: polygon(50% 0%, 100% 35%, 82% 100%, 18% 100%, 0% 35%);
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.pentagon-img img:hover {
+    transform: scale(1.08) rotateY(8deg);
+    filter: brightness(1.1);
+}
+
+[data-theme="dark"] .pentagon-img img {
+    filter: contrast(1.05);
+}
+
+
+/* ================= MOBILE ================= */
+@media (max-width: 768px) {
+    .hero-section h1 {
+        font-size: 2rem;
+    }
+
+    .hero-section p {
+        padding: 0 10px;
+    }
+
+    body {
+        padding-bottom: 90px;
+    }
+
+    .skills-container img {
+        width: 45px;
+        height: 45px;
+    }
+}
