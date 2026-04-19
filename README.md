@@ -34,7 +34,6 @@ Amacım clean code ve kullanıcı deneyimi odaklı projeler üretmek.
 ## 🌐 Canlı Demo
 
 👉 https://Erenunal123.github.io/portfolio  
-*(GitHub Pages aktif olduğunda burası çalışır)*
 
 ---
 
