@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const toggleBtn = document.getElementById("themeToggle");
     const root = document.documentElement;
 
-    // Tema zaten <head> içinde yüklendi, sadece buton ikonunu ayarla
+
     if (toggleBtn) {
         toggleBtn.innerText = root.getAttribute("data-theme") === "dark" ? "☀️" : "🌙";
 
