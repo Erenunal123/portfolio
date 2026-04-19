@@ -31,18 +31,11 @@ Amacım clean code ve kullanıcı deneyimi odaklı projeler üretmek.
 
 ---
 
-## 🌐 Canlı Demo
-
-👉 https://Erenunal123.github.io/portfolio  
-*(GitHub Pages aktif olduğunda burası çalışır)*
-
----
-
 ## 📸 Ekran Görüntüleri
 
 Aşağıda proje görünümü:
 
-![Portfolio Screenshot](images/Eren Toprak Ünal - Portfolyo Website.jpg)
+https://i.ibb.co/Rk7qzxgN/Eren-Toprak-nal-Portfolyo-Website.jpg
 
 ---
 
@@ -64,4 +57,4 @@ Bu proje sürekli geliştirilmektedir.
 
 ---
 
-👨‍💻 Created by **Eren Unal**
+👨‍💻 Created by **Eren Toprak Unal**
