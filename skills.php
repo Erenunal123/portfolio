@@ -36,7 +36,7 @@
 
             <div class="col-12 col-md-5 d-flex justify-content-center justify-content-md-end">
                 <div class="pentagon-img">
-                    <img src="https://i.ibb.co/vCJ22KZJ/HTMLCSSJS2.png" alt="HTML CSS JS">
+                    <img src="./image/visual1.png" alt="HTML CSS JS">
                 </div>
             </div>
 
@@ -50,7 +50,7 @@
 
             <div class="col-12 col-md-5 d-flex justify-content-center justify-content-md-start">
                 <div class="pentagon-img">
-                    <img src="https://i.ibb.co/BVnB6DLB/phpsqlswordpress2.png" alt="PHP MySQL WordPress">
+                    <img src="./image/visual2.png" alt="PHP MySQL WordPress">
                 </div>
             </div>
 
@@ -91,7 +91,7 @@
 
             <div class="col-12 col-md-5 d-flex justify-content-center justify-content-md-end">
                 <div class="pentagon-img">
-                    <img src="https://i.ibb.co/bj488z3w/reactlaravel.png" alt="React Laravel">
+                    <img src="./image/visual3.png" alt="React Laravel">
                 </div>
             </div>
 
@@ -105,7 +105,7 @@
 
             <div class="col-12 col-md-5 d-flex justify-content-center justify-content-md-start">
                 <div class="pentagon-img">
-                    <img src="https://i.ibb.co/VYB6WVSj/gitgithub.png" alt="Git GitHub">
+                    <img src="./image/visual4.png" alt="Git GitHub">
                 </div>
             </div>
 

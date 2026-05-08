@@ -33,7 +33,7 @@
             <!-- FOTO (SAĞ) -->
             <div class="col-12 col-md-5 d-flex justify-content-center justify-content-md-end">
                 <div class="triangle-img">
-                    <img src="https://i.ibb.co/N6mdyLsG/Eren-nal-Businnes-Man.jpg" alt="profile">
+                    <img src="./image/etu-businnes.jpg" alt="profile">
                 </div>
             </div>
 
